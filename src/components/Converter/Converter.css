@@ -1,0 +1,19 @@
+.app-converter-background {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: none;
+
+}
+.input-converter-wrap, .input-converter-result-wrap {
+    display: flex;
+    margin-bottom: 20px;
+}
+.input-converter-wrap input, .input-converter-result-wrap input {
+    min-height: 40px;
+    min-width: 200px
+} 
