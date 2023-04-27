@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './components/Converter/Converter.css';
 import Converter from './components/Converter/Converter';
 
