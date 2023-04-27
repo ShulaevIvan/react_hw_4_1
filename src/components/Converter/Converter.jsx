@@ -38,7 +38,7 @@ const Converter = () => {
 
         if (!isNaN(red) && !isNaN(green) && !isNaN(blue)) {
             const result = [ red, green, blue ];
-            resultInput.current.value = `${red} ${green} ${blue}`;
+            resultInput.current.value = `rgb (${red},${green},${blue})`;
             color.current = hexValue;
             setBackgroundColor({ color: color.current, });
             return result;
